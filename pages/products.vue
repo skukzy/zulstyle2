@@ -10,7 +10,7 @@
           <div class="col-md-12">
             <!-- <h5 v-if="loading" class="text-center text-muted"><em>sedang memuat...</em></h5> -->
             <div class="text-center">
-              <img v-if="loading" src="../static/assets/loading5.gif" width="400px">
+              <img v-if="loading" src="../static/assets/loading4.gif" width="400px">
             </div>
           </div>
           <div class="col-md-4" v-for="item in items" :key="item.id">
