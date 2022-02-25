@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js add @saeris/vue-spinner
+
+PATH: 
+  /usr/local/opt/python@3.7/bin:/Users/purple/.rvm/gems/ruby-2.7.1/bin:/Users/purple/.rvm/gems/ruby-2.7.1@global/bin:/Users/purple/.rvm/rubies/ruby-2.7.1/bin:/Users/purple/gems/bin:/usr/local/opt/ruby/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/openssl@1.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/purple/.composer/vendor/bin:/Users/purple/flutter/bin:/Users/purple/.rvm/bin:/Users/purple/Library/Android/sdk/emulator:/Users/purple/Library/Android/sdk/tools:/Users/purple/Library/Android/sdk/tools/bin:/Users/purple/Library/Android/sdk/platform-tools:/Users/purple/.rvm/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  16.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@saeris%2fvue-spinner: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:140748:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141720:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141642:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "zulstyle2",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate"
+    },
+    "dependencies": {
+      "bootstrap": "^4.6.1",
+      "bootstrap-vue": "^2.21.2",
+      "core-js": "^3.19.3",
+      "nuxt": "^2.15.8",
+      "nuxt-supabase": "^2.2.1",
+      "vue": "^2.6.14",
+      "vue-server-renderer": "^2.6.14",
+      "vue-template-compiler": "^2.6.14",
+      "webpack": "^4.46.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
